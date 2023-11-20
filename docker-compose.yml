@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  registry:
+    image: registry:2
+    ports:
+      - 7000:5000
+    volumes:
+      - ./config.yml:/etc/docker/registry/config.yml 
+      - ./reg_vol/:/var/lib/registry 
