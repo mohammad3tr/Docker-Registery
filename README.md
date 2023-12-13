@@ -1,6 +1,7 @@
 # Docker-Registery
 ```
-This Docker registry is a place to ignore Iranian internet filtering
+"This docker registry is a place to bypass Iranian internet filtering and you can have your own docker repository."
+
 1- Touch  /etc/docker/daemon.json
 {
     "registry-mirrors": ["http://a.b.com:7000"],
