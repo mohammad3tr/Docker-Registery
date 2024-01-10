@@ -20,7 +20,7 @@ docker-compose up -d
 
 ## client side config :
 ```
-<<<<<<< HEAD
+
 "This docker registry is a place to bypass Iranian internet filtering and you can have your own docker repository."
 
 Server side Config :
@@ -30,17 +30,12 @@ Server side Config :
 
 client side config :
 ----------------------------
-1- Touch  /etc/docker/daemon.json
-2- vim  /etc/docker/daemon.json
-{
-    "registry-mirrors": ["http://<your repository server address>:7000"],
-=======
+
 1- Touch  /etc/docker/daemon.json
 2- vim  /etc/docker/daemon.json
 
 {
-    "registry-mirrors": ["http://<your repository URL>"],
->>>>>>> bf82b21 (update)
+    "registry-mirrors": ["https://<your repository URL>"],
     "log-opts": {
         "max-size": "100m"
     }
