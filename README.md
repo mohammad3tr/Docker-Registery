@@ -4,16 +4,17 @@
 
 ## Server side Config :
 ```
-sudo apt-get update
-sudo apt-get install certbot
-sudo certbot certonly --standalone -d <your domain address>
+1- sudo apt-get update
+2- sudo apt-get install certbot
+3- sudo certbot certonly --standalone -d <your domain address>
+4- 
 ls  /etc/letsencrypt/live/
 ls /etc/letsencrypt/archive/
 
-cd Docker-Registery
-mkdir certs
-cp fullchain.pem  privkey.pem in certs directory
-docker-compose up -d
+5- cd Docker-Registery
+6- mkdir certs
+7- cp fullchain.pem  privkey.pem in certs directory
+8- docker-compose up -d
 
 ```
 
