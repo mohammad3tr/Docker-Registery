@@ -1,6 +1,6 @@
 ## Docker-Registery by using letsencrypt CA
 
-"This docker registry is a place to bypass Iranian internet filtering and you can have your own docker repository."
+
 
 ## Server side Config :
 ```
