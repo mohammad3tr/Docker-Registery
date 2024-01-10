@@ -19,7 +19,7 @@ docker-compose up -d
 
 
 ## client side config :
-----------------------------
+```
 
 1- Touch  /etc/docker/daemon.json
 2- vim  /etc/docker/daemon.json
