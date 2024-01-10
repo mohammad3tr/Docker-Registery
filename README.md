@@ -19,16 +19,6 @@ docker-compose up -d
 
 
 ## client side config :
-```
-
-"This docker registry is a place to bypass Iranian internet filtering and you can have your own docker repository."
-
-Server side Config :
----------------------------
-1- cd Docker-Registery
-2- docker-compose up -d
-
-client side config :
 ----------------------------
 
 1- Touch  /etc/docker/daemon.json
