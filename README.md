@@ -1,4 +1,4 @@
-## Docker-Registery
+## Docker-Registery by using letsencrypt CA
 
 "This docker registry is a place to bypass Iranian internet filtering and you can have your own docker repository."
 
@@ -12,7 +12,7 @@ ls /etc/letsencrypt/archive/
 
 cd Docker-Registery
 mkdir certs
-cp fullchain.pem and privkey.pem certs
+cp fullchain.pem  privkey.pem in certs directory
 docker-compose up -d
 
 ```
