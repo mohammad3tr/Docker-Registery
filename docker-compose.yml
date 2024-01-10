@@ -12,6 +12,6 @@ services:
       - ./certs/:/certs
     environment:
       REGISTRY_HTTP_ADDR: 0.0.0.0:5000
-      REGISTRY_HTTP_TLS_CERTIFICATE: /certs/fullchain1.pem
-      REGISTRY_HTTP_TLS_KEY: /certs/privkey1.pem
+      REGISTRY_HTTP_TLS_CERTIFICATE: /certs/fullchain.pem
+      REGISTRY_HTTP_TLS_KEY: /certs/privkey.pem
       REGISTRY_HTTP_SECRET: 123456
