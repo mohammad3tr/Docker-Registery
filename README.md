@@ -13,7 +13,8 @@ ls /etc/letsencrypt/archive/
 
 5- cd Docker-Registery
 6- mkdir certs
-7- cp fullchain.pem  privkey.pem in certs directory
+7- Copy the Fullchain1.pem and Privkey1.Pem files to the certs folder and make sure that the names of the fullchain.pem and PriavateKey.pem   are exactly the same as in the docker-compose file
+
 8- docker-compose up -d
 
 ```
